@@ -19,9 +19,9 @@ Springboot Web + JPA 用于定时获取各类监控数据并提供接口查询
 
 ## plan
 - [ ] 翻译 Flink 官网文档
-  - [ ] 在翻译文章系列一中增添以下：
-    - [ ] Job Managers, Task Managers, Clients
-    - [ ] Task Slots and Resources
+  - [x] 在翻译文章系列一中增添以下：
+    - [x] Job Managers, Task Managers, Clients
+    - [x] Task Slots and Resources
   - [ ] 在翻译文章系列五中添加：Barriers
   - [ ] 在翻译文章系列六中添加：Window Join
   - [ ] 翻译 Transformation 和 AsyncI/O
