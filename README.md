@@ -15,7 +15,7 @@
 Springboot Web 项目用于模拟大数据项目中日志生成
 
 ## metrics
-Springboot Web + JPA 用于定时获取各类监控数据并提供接口查询
+Springboot Web + influxDB 用于针对大数据服务的监控报警
 
 ## plan
 - [ ] 翻译 Flink 官网文档
@@ -28,10 +28,15 @@ Springboot Web + JPA 用于定时获取各类监控数据并提供接口查询
   - [ ] 翻译 Table SQL
   - [ ] 翻译 Deployment
   - [ ] 翻译 Debugging 和 Monitoring
-- [ ] 完成日志上报接口并写好测试用例(generate)
-- [ ] 定时获取监控数据并提供基于时间的接口查询(metrics)
-  - [ ] Flume
-  - [ ] Maxwell
-  - [ ] Hadoop
-  - [ ] HBase
-- [ ] 设计可以自定义报警规则的报警系统(邮件、短信、机器人)
+- [ ] 监控报警系统(metrics)
+  - [ ] 定时获取监控数据并提供基于时间的接口查询
+    - [ ] Flume
+    - [ ] Maxwell
+    - [ ] Hadoop
+    - [ ] HBase
+  -[ ] 设计报警模块的表(可自定义报警策略)
+  -[ ] 支持各类通知方式
+    - [ ] 邮件
+    - [ ] 短信
+    - [ ] 钉钉
+    - [ ] 企业微信
