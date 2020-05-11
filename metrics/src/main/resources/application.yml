@@ -13,3 +13,5 @@ spring:
     properties:
       dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 
+metrics:
+  hadoop: http://hadoop001:50070/jmx

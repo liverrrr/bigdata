@@ -17,6 +17,7 @@ public class HadoopMetricsEntity extends BaseEntity {
     private Long totalBlocks;
     private Long totalFiles;
     private Integer numLiveDataNodes;
+    private Integer NumDeadDataNodes;
     private Integer underReplicatedBlocks;
 
     public Double getMemNonHeapUsedMB() {
@@ -121,6 +122,14 @@ public class HadoopMetricsEntity extends BaseEntity {
 
     public void setNumLiveDataNodes(Integer numLiveDataNodes) {
         this.numLiveDataNodes = numLiveDataNodes;
+    }
+
+    public Integer getNumDeadDataNodes() {
+        return NumDeadDataNodes;
+    }
+
+    public void setNumDeadDataNodes(Integer numDeadDataNodes) {
+        NumDeadDataNodes = numDeadDataNodes;
     }
 
     public Integer getUnderReplicatedBlocks() {
