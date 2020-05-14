@@ -23,7 +23,7 @@ Springboot Web + influxDB 用于针对大数据服务的监控报警
     - [x] Job Managers, Task Managers, Clients
     - [x] Task Slots and Resources
   - [x] 在翻译文章系列五中添加：Barriers
-  - [ ] 在翻译文章系列六中添加：Window Join
+  - [x] 在翻译文章系列六中添加：Window Join
   - [ ] 翻译 Transformation 和 AsyncI/O
   - [ ] 翻译 Table SQL
   - [ ] 翻译 Deployment
