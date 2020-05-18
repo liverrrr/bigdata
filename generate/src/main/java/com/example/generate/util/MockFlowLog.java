@@ -6,12 +6,23 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
-public class MockData extends Thread{
+/**
+ * 模拟流量日志
+ * duration 持续时间
+ * appId 应用唯一标示
+ * user 用户
+ * version 应用版本
+ * platform 用户使用平台
+ * time 时间  [2020-05-18 15:13:20]
+ * traffic 流量  4090     一部分日志是正确（数值类型）  一部分日志是错误的（字符串类型）
+ * ip   x.x.x.x
+ */
+public class MockFlowLog extends Thread{
 
 
     public static void main(String[] args) {
         for (int i=0;i<100;i++){
-            new MockData().start();
+            new MockFlowLog().start();
         }
     }
 
@@ -40,7 +51,7 @@ public class MockData extends Thread{
         Random random = new Random();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String time = LocalDateTime.now().format(formatter);
-        for (int i = 1; i >0; i++) {
+        for (int i = 1; i < 100; i++) {
             StringBuilder result = new StringBuilder();
             result.append("{");
             String user = "ruozedata" + random.nextInt(100);
