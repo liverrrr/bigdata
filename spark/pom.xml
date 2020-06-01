@@ -14,7 +14,7 @@
     <zk.version>3.4.5-cdh5.15.1</zk.version>
     <curator.version>4.0.0</curator.version>
     <flume.version>1.6.0-cdh5.15.1</flume.version>
-    <hive.version>1.1.0-cdh5.15.1</hive.version>
+    <hive.version>2.3.4</hive.version>
     <hbase.version>1.2.0-cdh5.15.1</hbase.version>
     <kafka.version>2.3.0</kafka.version>
   </properties>
