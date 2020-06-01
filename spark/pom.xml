@@ -11,7 +11,7 @@
     <spark.version>2.4.4</spark.version>
     <flink.version>1.9.0</flink.version>
     <hadoop.version>2.6.0-cdh5.15.1</hadoop.version>
-    <zk.version>3.4.5-cdh5.15.1</zk.version>
+    <zk.version>3.4.14</zk.version>
     <curator.version>4.0.0</curator.version>
     <flume.version>1.6.0-cdh5.15.1</flume.version>
     <hive.version>1.1.0-cdh5.15.1</hive.version>
